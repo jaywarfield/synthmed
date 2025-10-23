@@ -2,6 +2,12 @@
 
 ## Solution
 
+### Solution Diagram
+
+![SynthMed Diagram](images/synthmed.drawio.png)
+
+### Solution Description
+
 TBD
 
 ---

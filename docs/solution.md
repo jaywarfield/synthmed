@@ -2,11 +2,11 @@
 
 ## Solution
 
-### Solution Diagram
+### Diagram
 
 ![SynthMed Diagram](images/synthmed.drawio.png)
 
-### Solution Description
+### Description
 
 TBD
 

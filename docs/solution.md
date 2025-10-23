@@ -2,9 +2,11 @@
 
 ## Solution
 
-### Diagram
+### Diagrams
 
 ![SynthMed Diagram](images/synthmed.drawio.png)
+
+Reference: [IBM Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
 
 ### Description
 

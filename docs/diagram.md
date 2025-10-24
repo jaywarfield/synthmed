@@ -1,12 +1,10 @@
 # **SynthMed Agent - IBM AI Lab Challenge: AI Medical Research Synthesis Agent**
 
-## [Problem](docs/problem.md)
+### Diagram
 
-## [Solution](docs/solution.md)
+![SynthMed Diagram](images/synthmed.drawio.png)
 
-## [Solution](docs/diagram.md)
-
-## [Setup](docs/setup.md)
+Reference: [IBM Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
 
 ---
 

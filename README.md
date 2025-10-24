@@ -4,7 +4,7 @@
 
 ## [Solution](docs/solution.md)
 
-## [Solution](docs/diagram.md)
+## [Diagram](docs/diagram.md)
 
 ## [Setup](docs/setup.md)
 

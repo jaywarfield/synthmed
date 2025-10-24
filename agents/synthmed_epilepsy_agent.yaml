@@ -1,0 +1,17 @@
+spec_version: v1
+kind: native
+name: synthmed_epilepsy_agent
+display_name: SynthMed Epilepsy Agent
+description: 
+  "Smart medical research agent to help researchers synthesize insights from volumes of scientific literature and medical papers to answer complex questions with citations."
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+
+collaborators: []
+
+#tools:
+#- example
+
+knowledge_base:
+  - synthmed_epilepsy_kb
+

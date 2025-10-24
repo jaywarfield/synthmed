@@ -16,8 +16,48 @@ for tool in ${SCRIPT_DIR}/tools/*; do
   fi
 done
 
+for kb in synthmed_autism_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_cancer_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_dimentia_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_epilepsy_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_rare_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
 for kb in synthmed_kb.yaml; do
   orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for agent in synthmed_autism_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_cancer_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_dimentia_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_epilepsy_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_rare_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
 done
 
 for agent in synthmed_agent.yaml; do

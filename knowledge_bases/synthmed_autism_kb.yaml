@@ -1,0 +1,13 @@
+spec_version: v1
+type: built-in
+kind: knowledge_base
+name: synthmed_autism_kb
+display_name: SynthMed Autism KB
+description: These documents cover autism. Use these documents to answer user questions related to autism.
+documents:
+  - path: ./autism/2024.08.15.24312078v1.full.pdf
+  - path: ./autism/13229_2020_Article_330.pdf
+  - path: ./autism/ASD DD Overlap.pdf
+  - path: ./autism/DNV promoter ASD.pdf
+  - path: ./autism/gene pairing_ASD.pdf
+  - path: ./autism/GIGYF1 ASD.pdf

@@ -1,0 +1,8 @@
+spec_version: v1
+type: built-in
+kind: knowledge_base
+name: synthmed_epilepsy_kb
+display_name: SynthMed Epilepsy KB
+description: These documents cover epilepsy. Use these documents to answer user questions related to epilepsy.
+documents:
+  - path: ./epilepsy/fnmol-15-809951.pdf

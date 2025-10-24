@@ -1,18 +1,8 @@
 spec_version: v1
-type: biult-in
+type: built-in
 kind: knowledge_base
 name: synthmed_kb
-display_name: SynthMed Knowledge Base
-description: These documents cover sleep apnea, definition, types, symptoms, and dementia.  Use these documents to answer user questions related to sleep apnea.
+display_name: SynthMed KB
+description: These documents cover general concepts of diseases. Use these documents to answer user questions related to general concepts of diseases.
 documents:
-  - path: 2024.08.15.24312078v1.full.pdf
-  - path: 13229_2020_Article_330.pdf
-  - path: ASD DD Overlap.pdf
-  - path: DNV promoter ASD.pdf
-  - path: fnmol-15-809951.pdf
-  - path: gene pairing_ASD.pdf
-  - path: GIGYF1 ASD.pdf
-  - path: ijms-26-02049.pdf
-  - path: metastasis_BOOK.pdf
-# - path: nature_omics_rare diseases.pdf
-# - path: s41525-021-00235-3.pdf
+  - path: ./general/Generalconceptsofdisease.pdf

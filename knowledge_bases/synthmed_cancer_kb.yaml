@@ -1,0 +1,9 @@
+spec_version: v1
+type: built-in
+kind: knowledge_base
+name: synthmed_cancer_kb
+display_name: SynthMed Cancer KB
+description: These documents cover cancer and metastasis. Use these documents to answer user questions related to cancer and metastasis.
+documents:
+  - path: ./cancer/ijms-26-02049.pdf
+  - path: ./cancer/metastasis_BOOK.pdf

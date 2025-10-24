@@ -1,0 +1,8 @@
+spec_version: v1
+type: biult-in
+kind: knowledge_base
+name: synthmed_rare_kb
+display_name: SynthMed Rare KB
+description: These documents cover rare diseases. Use these documents to answer user questions related to rare diseases.
+documents:
+  - path: ./rare/nature_omics_rare diseases.pdf

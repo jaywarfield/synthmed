@@ -6,7 +6,6 @@ description:
   "Smart medical research agent to help researchers synthesize insights from volumes of scientific literature and medical papers to answer complex questions with citations."
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
-collaborators: []
 
 welcome_content:
   welcome_message: Welcome to your medical research assistant, please enter your questions.
@@ -17,9 +16,14 @@ starter_prompts:
   is_default_prompts: false
   prompts:
     - id: default0
-      title: Summarize documents.
+      title: General Diseases 
       subtitle: null
-      prompt: Summarize documents.
+      prompt: Summarize general concepts of diseases.
+      state: active
+    - id: default1
+      title: Metastasis 
+      subtitle: null
+      prompt: What is metastasis?
       state: active
 
 instructions: |-
@@ -84,10 +88,15 @@ guidelines:
       before calling the tool.
     tool: ""
 
-collaborators: []
+collaborators:
+  - synthmed_autism_agent
+  - synthmed_cancer_agent
+  - synthmed_dimentia_agent
+  - synthmed_epilepsy_agent
+  - synthmed_rare_agent
 
-tools:
-- example
+#tools:
+#- example
 
 knowledge_base:
   - synthmed_kb

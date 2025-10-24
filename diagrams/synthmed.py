@@ -43,9 +43,11 @@ with Diagram("synthmed"):
           engineer >> engineeragent
           researcher >> researcheragent
           with ExpandedApplication("Disease Agents", direction="TB") as diseaseagents:
-            diabetesagent = WatsonStudio("Agent", "Diabetes")
-            lupusagent = WatsonStudio("Agent", "Lupus")
-            parkinsonsagent = WatsonStudio("Agent", "Parkinsons")
+            autismagent = WatsonStudio("Agent", "Autism")
+            canceragent = WatsonStudio("Agent", "Cancer")
+            dimentiaagent = WatsonStudio("Agent", "Dimentia")
+            epilepsyagent = WatsonStudio("Agent", "Epilepsy")
+            rareagent = WatsonStudio("Agent", "Rare")
           researcheragent >> SolidEdge("Query") >> diseaseagents
           with ExpandedApplication("Backend Agents", direction="TB") as backendagents:
             with ExpandedApplication("RAG") as rag:

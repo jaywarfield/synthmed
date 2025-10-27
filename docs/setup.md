@@ -12,6 +12,9 @@
 7. Select Create
 8. Select Copy or Download - important to save a copy of the key value 
 
+### Install orchestrate adk package:
+- pip install watsonx-orchestrate-adk
+
 ### View orchestrate help:
 - orchestrate –help
 - orchestrate env --help

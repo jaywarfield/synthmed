@@ -12,8 +12,13 @@
 7. Select Create
 8. Select Copy or Download - important to save a copy of the key value 
 
-### Install orchestrate adk package:
+### Orchestrate SynthMed project:
 - pip install watsonx-orchestrate-adk
+- clone SynthMed github project
+- orchestrate env activate synthmed
+- Please enter WXO API key:  (cut-and-paste your API Key here) 
+- import-all.sh
+- Test in GUI
 
 ### View orchestrate help:
 - orchestrate –help

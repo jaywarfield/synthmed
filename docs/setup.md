@@ -16,7 +16,7 @@
 	- orchestrate env add -n synthmed -u https://api.ca-tor.watson-orchestrate.cloud.ibm.com/instances/d5d11d07-ece4-4eb3-aaf8-6f91dc58181f --type ibm_iam --activate
 	- orchestrate env activate synthmed
 	- Please enter WXO API key:  (cut-and-paste your API Key here) 
-	- Note: Token will need to be reactivate when it expires.
+	- Note: Token will need to be reactivated when it expires.
 - Clone and run SynthMed project locally:
 	- Browse to https://github.com/jaywarfield/synthmed
 	- Select Code and Open with GitHub Desktop.

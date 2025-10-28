@@ -7,7 +7,7 @@
 - pip install watsonx-orchestrate-adk
 - orchestrate env add -n synthmed -u https://api.ca-tor.watson-orchestrate.cloud.ibm.com/instances/d5d11d07-ece4-4eb3-aaf8-6f91dc58181f --type ibm_iam --activate
 - orchestrate env activate synthmed
-- Please enter WXO API key:  (cut-and-paste your API Key here) 
+	- Please enter WXO API key:  (cut-and-paste your API Key here) 
 - Note: Current token will eventually expire and activate will need to be redone.
 
 ### Clone and run SynthMed project locally:

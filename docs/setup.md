@@ -4,7 +4,9 @@
 
 ### Setup and activate orchestrate locally:
 - Obtain API Key using steps below.
-- pip install watsonx-orchestrate-adk
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install ibm-watsonx-orchestrate
 - orchestrate env add -n synthmed -u https://api.ca-tor.watson-orchestrate.cloud.ibm.com/instances/d5d11d07-ece4-4eb3-aaf8-6f91dc58181f --type ibm_iam --activate
 - orchestrate env activate synthmed
 	- Please enter WXO API key:  (cut-and-paste your API Key here) 

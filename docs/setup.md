@@ -23,6 +23,8 @@
 	- Execute locally: import-all.sh
 	- Test in UI
 
+Note: The following are additional orchestrate commands if needed.
+
 ### View orchestrate help:
 - orchestrate –help
 - orchestrate env --help
@@ -35,8 +37,6 @@
 
 ### List agents:
 - orchestrate agents list -v
-
-Note: Follow imports are done by import-all.sh
 
 ### Import tools:
 - orchestrate tools import -f my-file.py -k python

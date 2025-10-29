@@ -4,10 +4,8 @@
 
 ### Setup Orchestrate and SynthMed:
 1. Obtain API Key:
-	- Go to cloud.ibm.com
-	- Go to Manage -> Access (IAM) and select API keys on left.
-	- Select Create and enter key name and description.
-	- Select Create followed by Copy or Download - important to save key value. 
+	- Go to IBM SkillsBuild_AI Experiential Learning Lab_2025_Guide.pdf.
+        - Go through steps on Page 13 for IBM watsonx.ai.
 2. Setup virtual environment:
 	- python3 -m venv venv
 	- source venv/bin/activate

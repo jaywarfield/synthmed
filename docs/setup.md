@@ -4,8 +4,12 @@
 
 ### Setup Orchestrate and SynthMed:
 1. Obtain API Key:
-	- Go to IBM SkillsBuild_AI Experiential Learning Lab_2025_Guide.pdf.
-        - Go through steps on Page 13 for IBM watsonx.ai.
+        - Go to watsonx.ai home page (https://dataplatform.cloud.ibm.com/wx/home?context=wx).
+        - Scroll down to "Developer access" section.
+	- Select "Project or deployment space" and "AI Experiental Learning Labs Sandbox".
+        - Leave "Project ID" and watsonx.ai URL as is (ensure region is Dallas at top right of watsonx).ai home page.
+        - Select "Create API key" button, enter name and optional description, choose "Disable leaked key" option, and click the Create button.
+        - Copy and save the API key or download to save the key in a file.
 2. Setup virtual environment:
 	- python3 -m venv venv
 	- source venv/bin/activate

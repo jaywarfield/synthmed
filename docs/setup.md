@@ -3,10 +3,10 @@
 ## Setup
 
 ### Setup Orchestrate and SynthMed:
-1. Obtain API Key:
+1. Obtain API Key (refer to lab guide):
         - Go to watsonx.ai home page (https://dataplatform.cloud.ibm.com/wx/home?context=wx).
         - Scroll down to "Developer access" section.
-	- Select "Project or deployment space" and "AI Experiental Learning Labs Sandbox".
+	- Select "Project or deployment space" and select the sandbox.
         - Leave "Project ID" and watsonx.ai URL as is (ensure region is Dallas at top right of watsonx).ai home page.
         - Select "Create API key" button, enter name and optional description, choose "Disable leaked key" option, and click the Create button.
         - Copy and save the API key or download to save the key in a file.

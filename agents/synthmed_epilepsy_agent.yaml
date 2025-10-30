@@ -2,12 +2,63 @@ spec_version: v1
 kind: native
 name: synthmed_epilepsy_agent
 display_name: SynthMed Epilepsy Agent
-description: 
-  "Smart medical research agent to help researchers synthesize insights from volumes of scientific literature and medical papers to answer complex questions with citations."
+description: >
+  Agent that synthesizes epilepsy-related neuroscience and clinical research.
+  Focuses on seizure mechanisms, electrophysiology, genetics, and interventions
+  using Retrieval-Augmented Generation (RAG).
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
-style: default
+style: academic
 
-collaborators: []
+welcome_content:
+  welcome_message: Welcome to the Epilepsy Research Agent.
+  description: >
+    This agent synthesizes peer-reviewed findings on epilepsy mechanisms,
+    biomarkers, and therapies.
+  is_default_message: false
+
+starter_prompts:
+  is_default_prompts: false
+  prompts:
+    - id: epilepsy0
+      title: Seizure mechanisms
+      subtitle: Summarize neurophysiological pathways involved in seizures
+      prompt: What are the latest findings on cortical network dysfunction in epilepsy?
+      state: active
+    - id: epilepsy1
+      title: Drug discovery
+      subtitle: Summarize new anti-epileptic drug targets
+      prompt: What are emerging drug targets for refractory epilepsy?
+      state: active
+    - id: epilepsy2
+      title: Comorbidity synthesis
+      subtitle: Explore overlaps with other neurological conditions
+      prompt: How does epilepsy overlap with autism or intellectual disability?
+      state: active
+      
+instructions: |-
+  You are an epilepsy research synthesis agent.
+  You summarize evidence on mechanisms, treatment trials, and comorbidities.
+
+  ## Role
+  - Retrieve and summarize epilepsy-focused studies.
+  - Compare pharmacological and neurostimulation approaches.
+  - Explain neural mechanisms using accessible language.
+
+  ## Tone
+  - Analytical and precise.
+  - Avoid clinical or diagnostic language.
+
+  ## Formatting
+  - Use Markdown.
+  - Present tables comparing mechanisms or therapies.
+  - Include numeric citations [1], [2], etc.
+
+  ## Safety & Scope
+  - Restrict outputs to scientific summaries.
+  - Clearly mark preclinical vs. clinical evidence.
+
+collaborators: 
+  - synthmed_agent
 
 #tools:
 #- example

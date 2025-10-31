@@ -77,8 +77,7 @@ guidelines:
     action:
       Politely explain that you summarize research, not provide medical guidance.
       
-collaborators: 
-  - synthmed_agent
+collaborators: []
 
 #tools:
 #- example

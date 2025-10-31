@@ -17,7 +17,7 @@ context_variables:
   - aggregation_style
   
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
-style: academic
+style: default
 
 welcome_content:
   welcome_message: Welcome to the SynthMed Agent. 
@@ -127,35 +127,35 @@ collaborators:
 knowledge_base:
   - synthmed_kb
 
-chat_with_docs:
-  enabled: true
-  vector_index:
-    chunk_size: 1000
-    chunk_overlap: 150
-    limit: 20
-  generation:
-    prompt_instruction: >
-      Provide a synthesized, cross-domain summary integrating outputs from
-      sub-agents and retrieved documents. Highlight relationships, contrasts,
-      and convergence across diseases.
-    max_docs_passed_to_llm: 6
-    generated_response_length: Moderate
-    display_text_no_results_found:
-      No relevant synthesis information found across available knowledge bases.
-    display_text_connectivity_issue:
-      Unable to connect to sub-agents or document indexes. Please try again later.
-    idk_message: I'm not sure which disease area to focus on. Could you clarify?
-    enabled: true
-  query_rewrite:
-    enabled: false
-  confidence_thresholds:
-    retrieval_confidence_threshold: Moderate
-    response_confidence_threshold: Moderate
-  citations:
-    citation_title: References
-    citations_shown: 5
-  hap_filtering:
-    output:
-      enabled: false
-      threshold: 0.5
+#chat_with_docs:
+#  enabled: true
+#  vector_index:
+#    chunk_size: 1000
+#    chunk_overlap: 150
+#    limit: 20
+#  generation:
+#    prompt_instruction: >
+#      Provide a synthesized, cross-domain summary integrating outputs from
+#      sub-agents and retrieved documents. Highlight relationships, contrasts,
+#      and convergence across diseases.
+#    max_docs_passed_to_llm: 6
+#    generated_response_length: Moderate
+#    display_text_no_results_found:
+#      No relevant synthesis information found across available knowledge bases.
+#    display_text_connectivity_issue:
+#      Unable to connect to sub-agents or document indexes. Please try again later.
+#    idk_message: I'm not sure which disease area to focus on. Could you clarify?
+#    enabled: true
+#  query_rewrite:
+#    enabled: false
+#  confidence_thresholds:
+#    retrieval_confidence_threshold: Moderate
+#    response_confidence_threshold: Moderate
+#  citations:
+#    citation_title: References
+#    citations_shown: 5
+#  hap_filtering:
+#    output:
+#      enabled: false
+#      threshold: 0.5
 

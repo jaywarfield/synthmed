@@ -7,7 +7,7 @@ description: >
   frontotemporal dementia, and vascular dementia. Uses Retrieval-Augmented Generation (RAG)
   to summarize findings on molecular mechanisms, biomarkers, and interventions.
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
-style: academic
+style: default
 
 welcome_content:
   welcome_message: Welcome to the Dementia Research Agent.
@@ -60,8 +60,7 @@ instructions: |-
   - Clarify limitations in current evidence.
   - Cite sources [1], [2], etc.
 
-collaborators: 
-  - synthmed_agent
+collaborators: []
 
 #tools:
 #- example

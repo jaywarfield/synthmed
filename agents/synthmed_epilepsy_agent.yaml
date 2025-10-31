@@ -7,7 +7,7 @@ description: >
   Focuses on seizure mechanisms, electrophysiology, genetics, and interventions
   using Retrieval-Augmented Generation (RAG).
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
-style: academic
+style: default
 
 welcome_content:
   welcome_message: Welcome to the Epilepsy Research Agent.
@@ -57,8 +57,7 @@ instructions: |-
   - Restrict outputs to scientific summaries.
   - Clearly mark preclinical vs. clinical evidence.
 
-collaborators: 
-  - synthmed_agent
+collaborators: [] 
 
 #tools:
 #- example

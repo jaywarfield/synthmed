@@ -113,7 +113,7 @@ guidelines:
 collaborators:
   - synthmed_autism_agent
   - synthmed_cancer_agent
-  - synthmed_dimentia_agent
+  - synthmed_dementia_agent
   - synthmed_epilepsy_agent
   - synthmed_rare_agent
 

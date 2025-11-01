@@ -1,8 +1,8 @@
 spec_version: v1
 type: built-in
 kind: knowledge_base
-name: synthmed_dimentia_kb
-display_name: SynthMed Dimentia KB
+name: synthmed_dementia_kb
+display_name: SynthMed Dementia KB
 description: These documents cover dimentia. Use these documents to answer user questions related to dimentia.
 documents:
-  - path: ./dimentia/s41525-021-00235-3.pdf
+  - path: ./dementia/s41525-021-00235-3.pdf

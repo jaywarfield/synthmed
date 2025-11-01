@@ -17,17 +17,65 @@ for tool in ${SCRIPT_DIR}/tools/*; do
 done
 
 # Import all knowledge bases
-for kb in ${SCRIPT_DIR}/knowledge_bases/*.yaml; do
-  if [ -f "$kb" ]; then
-    echo "Importing knowledge base: $kb"
-    orchestrate knowledge-bases import -f "$kb"
-  fi
-done
+#for kb in ${SCRIPT_DIR}/knowledge_bases/*.yaml; do
+#  if [ -f "$kb" ]; then
+#    echo "Importing knowledge base: $kb"
+#    orchestrate knowledge-bases import -f "$kb"
+#  fi
+#done
 
 # Import all agents
-for agent in ${SCRIPT_DIR}/agents/*.yaml; do
-  if [ -f "$agent" ]; then
-    echo "Importing agent: $agent"
-    orchestrate agents import -f "$agent"
-  fi
+#for agent in ${SCRIPT_DIR}/agents/*.yaml; do
+#  if [ -f "$agent" ]; then
+#    echo "Importing agent: $agent"
+#    orchestrate agents import -f "$agent"
+#  fi
+#done
+
+for kb in synthmed_autism_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_cancer_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_dementia_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_epilepsy_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_rare_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for kb in synthmed_kb.yaml; do
+  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+done
+
+for agent in synthmed_autism_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_cancer_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_dementia_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_epilepsy_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_rare_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
 done

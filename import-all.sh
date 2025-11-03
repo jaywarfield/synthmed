@@ -12,7 +12,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 for tool in ${SCRIPT_DIR}/tools/*; do
   if [ -f "$tool" ]; then
     echo "Importing python tool: $tool"
-    orchestrate tools import -f "$tool" -k python
+    orchestrate tools import -f "$tool" -k python -r ${SCRIPT_DIR}/requirements.txt
   fi
 done
 

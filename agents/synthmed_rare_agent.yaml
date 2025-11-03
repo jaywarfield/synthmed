@@ -6,7 +6,7 @@ description: >
   Agent that synthesizes biomedical and genomic research on rare diseases.
   It integrates molecular findings, case studies, and therapeutic developments
   using Retrieval-Augmented Generation (RAG).
-llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+llm: watsonx/ibm/granite-3-8b-instruct
 style: default
 
 welcome_content:

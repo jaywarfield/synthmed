@@ -16,7 +16,7 @@ context_variables:
   - preferred_sources
   - aggregation_style
   
-llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+llm: watsonx/ibm/granite-3-8b-instruct
 style: default
 
 welcome_content:
@@ -116,10 +116,6 @@ collaborators:
   - synthmed_dementia_agent
   - synthmed_epilepsy_agent
   - synthmed_rare_agent
-  - synthmed_ingestor_agent
-  - synthmed_retriever_agent
-  - synthmed_synthesizer_agent
-  - synthmed_validator_agent
 
 #tools:
   #- orchestrate_multi_agent
@@ -162,4 +158,3 @@ knowledge_base:
 #    output:
 #      enabled: false
 #      threshold: 0.5
-

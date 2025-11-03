@@ -5,4 +5,8 @@ name: synthmed_epilepsy_kb
 display_name: SynthMed Epilepsy KB
 description: These documents cover epilepsy. Use these documents to answer user questions related to epilepsy.
 documents:
+  - path: ./epilepsy/1-s2.0-S0014488624001869-main.pdf
+  - path: ./epilepsy/1-s2.0-S1059131123002546-main.pdf
+  - path: ./epilepsy/Develop Med Child Neuro - 2022 - Auvin - Paediatric epilepsy and cognition.pdf
   - path: ./epilepsy/fnmol-15-809951.pdf
+  - path: ./epilepsy/s11910-017-0758-6.pdf

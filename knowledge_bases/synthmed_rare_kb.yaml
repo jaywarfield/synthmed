@@ -5,4 +5,9 @@ name: synthmed_rare_kb
 display_name: SynthMed Rare KB
 description: These documents cover rare diseases. Use these documents to answer user questions related to rare diseases.
 documents:
+  - path: ./rare/12967_2023_Article_4011.pdf
+  - path: ./rare/13023_2023_Article_2839.pdf
+  - path: ./rare/41431_2019_Article_508.pdf
+  - path: ./rare/fcell-12-1413248.pdf
   - path: ./rare/nature_omics_rare diseases.pdf
+  - path: ./rare/WJEM-13-59.pdf

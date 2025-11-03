@@ -52,9 +52,9 @@ for kb in synthmed_rare_kb.yaml; do
   orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
 done
 
-for kb in synthmed_kb.yaml; do
-  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
-done
+#for kb in synthmed_kb.yaml; do
+#  orchestrate knowledge-bases import -f ${SCRIPT_DIR}/knowledge_bases/${kb}
+#done
 
 for agent in synthmed_autism_agent.yaml; do
   orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}

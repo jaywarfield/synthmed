@@ -5,4 +5,8 @@ name: synthmed_dementia_kb
 display_name: SynthMed Dementia KB
 description: These documents cover dimentia. Use these documents to answer user questions related to dimentia.
 documents:
+  - path: ./dementia/1-s2.0-S1041610224024153-main.pdf
+  - path: ./dementia/main.pdf
+  - path: ./dementia/molecules-25-05789.pdf
   - path: ./dementia/s41525-021-00235-3.pdf
+  - path: ./dementia/s41582-023-00884-1.pdf

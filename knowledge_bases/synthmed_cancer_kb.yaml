@@ -5,5 +5,8 @@ name: synthmed_cancer_kb
 display_name: SynthMed Cancer KB
 description: These documents cover cancer and metastasis. Use these documents to answer user questions related to cancer and metastasis.
 documents:
+  - path: ./cancer/41392_2024_Article_1856.pdf
+  - path: ./cancer/CAM4-7-922.pdf
   - path: ./cancer/ijms-26-02049.pdf
   - path: ./cancer/metastasis_BOOK.pdf
+  - path: ./cancer/nihms-1719125.pdf

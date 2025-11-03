@@ -124,8 +124,9 @@ collaborators:
   #- citation_formatter
   #- medical_rag_retriever
 
-knowledge_base:
-  - synthmed_kb
+knowledge_base: []
+#knowledge_base:
+#  - synthmed_kb
 
 #chat_with_docs:
 #  enabled: true

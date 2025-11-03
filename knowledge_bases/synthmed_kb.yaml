@@ -1,8 +1,0 @@
-spec_version: v1
-type: built-in
-kind: knowledge_base
-name: synthmed_kb
-display_name: SynthMed KB
-description: These documents cover general concepts of diseases. Use these documents to answer user questions related to general concepts of diseases.
-documents:
-  - path: ./general/Generalconceptsofdisease.pdf

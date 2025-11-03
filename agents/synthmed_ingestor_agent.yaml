@@ -1,0 +1,12 @@
+spec_version: v1
+kind: native
+name: synthmed_ingestor_agent
+display_name: SynthMed Ingestor Agent
+description: 
+  "Backend agent to upload PDFs and extract text, tables, and metadata."
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+
+collaborators: []
+
+tools: []

@@ -76,6 +76,22 @@ for agent in synthmed_rare_agent.yaml; do
   orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
 done
 
+for agent in synthmed_ingestor_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_retriever_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_synthesizer_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
+for agent in synthmed_validator_agent.yaml; do
+  orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
+done
+
 for agent in synthmed_agent.yaml; do
   orchestrate agents import -f ${SCRIPT_DIR}/agents/${agent}
 done

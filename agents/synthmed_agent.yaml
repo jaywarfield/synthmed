@@ -116,6 +116,10 @@ collaborators:
   - synthmed_dementia_agent
   - synthmed_epilepsy_agent
   - synthmed_rare_agent
+  - synthmed_ingestor_agent
+  - synthmed_retriever_agent
+  - synthmed_synthesizer_agent
+  - synthmed_validator_agent
 
 #tools:
   #- orchestrate_multi_agent

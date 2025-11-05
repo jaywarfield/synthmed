@@ -6,7 +6,7 @@ description: >
   Agent that synthesizes epilepsy-related neuroscience and clinical research.
   Focuses on seizure mechanisms, electrophysiology, genetics, and interventions
   using Retrieval-Augmented Generation (RAG).
-llm: watsonx/ibm/granite-3-8b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
 welcome_content:

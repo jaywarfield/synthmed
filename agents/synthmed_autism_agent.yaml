@@ -6,7 +6,7 @@ description: >
   Agent that synthesizes autism-related medical and neuroscience research using
   Retrieval-Augmented Generation (RAG). Useful for summarizing studies on genetics,
   neurodevelopment, behavior, comorbidities, and interventions.
-llm: watsonx/ibm/granite-3-8b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
 welcome_content:

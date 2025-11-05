@@ -4,7 +4,7 @@ name: synthmed_cancer_agent
 display_name: SynthMed Cancer Agent
 description: 
   "Agent that synthesizes medical research findings from multiple sources using Retrieval-Augmented Generation (RAG). It focuses on cancer-related topics such as molecular mechanisms, biomarkers, treatments, and clinical trials. Useful for summarizing literature, comparing studies, and answering research-driven questions."
-llm: watsonx/ibm/granite-3-8b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
 welcome_content:

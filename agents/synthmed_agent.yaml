@@ -16,7 +16,7 @@ context_variables:
   - preferred_sources
   - aggregation_style
   
-llm: watsonx/ibm/granite-3-8b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
 welcome_content:

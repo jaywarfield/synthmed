@@ -6,7 +6,7 @@ description: >
   Agent that synthesizes dementia-related research including Alzheimer's disease,
   frontotemporal dementia, and vascular dementia. Uses Retrieval-Augmented Generation (RAG)
   to summarize findings on molecular mechanisms, biomarkers, and interventions.
-llm: watsonx/ibm/granite-3-8b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
 welcome_content:

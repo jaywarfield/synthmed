@@ -23,3 +23,13 @@ for kb in ${SCRIPT_DIR}/knowledge_bases/*.yaml; do
     orchestrate knowledge-bases remove --name $kbname
   fi
 done
+
+# Remove all tools
+for tool in ${SCRIPT_DIR}/tools/*.py; do
+  if [ -f "$tool" ]; then
+    filename=${tool##*/}
+    toolname=${filename%.*}
+    echo "Removing tool: $toolname"
+    orchestrate tools remove --name $toolname
+  fi
+done

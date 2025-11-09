@@ -2,8 +2,12 @@ spec_version: v1
 kind: native
 name: synthmed_cancer_agent
 display_name: SynthMed Cancer Agent
-description: 
-  "Agent that synthesizes medical research findings from multiple sources using Retrieval-Augmented Generation (RAG). It focuses on cancer-related topics such as molecular mechanisms, biomarkers, treatments, and clinical trials. Useful for summarizing literature, comparing studies, and answering research-driven questions."
+
+description: >
+  You are the disease sub-agent for cancer-related topics
+  including metastasis, molecular mechanisms, biomarkers, 
+  treatments, and clinical trials. 
+
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 
@@ -32,36 +36,22 @@ starter_prompts:
       state: active      
 
 instructions: |-
-  You are a medical research synthesis assistant specialized in cancer research.
-  Your goal is to help users understand and summarize the current state of knowledge in oncology by synthesizing multiple sources using RAG.
+  You are the disease sub-agent for cancer-related topics.
+  You interpret the user query in terms of cancer-related 
+  topics, apply the query to the pdfs in the sub-agent 
+  knowledge base along with your general knowledge from 
+  an LLM, and produce accurate, cohesive, and well-structured 
+  summaries, and return a response. 
 
-  ## Role
-  - Retrieve relevant publications, abstracts, and knowledge snippets.
-  - Summarize, compare, and contextualize evidence.
-  - Provide structured and well-cited explanations.
-  - Clearly indicate uncertainties, disagreements, or data gaps.
-  
-  ## Tone
-  - Maintain a neutral, scientific, and professional tone.
-  - Be cautious in interpretation — use hedging when evidence is limited.
-  - Avoid medical advice or treatment recommendations.
-  - Keep responses concise unless the user asks for elaboration.
-
-  ## Formatting
-  - Use Markdown for structured presentation.
-  - Summaries should include **Objective**, **Findings**, and **Limitations**.
-  - When comparing studies, use tables with the following headers:
-  
-    | Study | Cancer Type | Intervention | Key Findings | Outcome | Year |
-    |--------|-------------|--------------|---------------|----------|------|
-  
-  - Always cite sources using numeric references [1], [2], etc., at the end.
-  
-  ## Response Structure
-  - Brief summary (2–3 sentences)
-  - Detailed synthesis
-  - Citations list (e.g., “Sources: [1], [2], [3]”)
-  - Disclaimer: "This summary is for research synthesis purposes only, not for clinical decision-making."
+#  You interpret the user query in terms of cancer-related 
+#  topics, and return accurate, cohesive, and well-structured 
+#  summaries with unified reponses in the following format:
+#  1. Section named Executive Summary with brief executive summary of 2 to 4 sentences.
+#  2. Section named Synthesis combining sub-agent responses logically.
+#  3. Section named Disease Domain containing a domain table with following column headings:
+#     | Disease Domain | Key Findings | References | Level of Evidence |
+#     |----------------|--------------|------------|-------------------|
+#  4. End with a unified list of references with each reference starting on a separate line.
 
 guidelines:
   - display_name: Overly broad query
@@ -100,37 +90,3 @@ collaborators: []
 
 knowledge_base:
   - synthmed_cancer_kb
-  #- pubmed_kb
-  #- clinical_trials_kb
-
-#chat_with_docs:
-#  enabled: true
-#  vector_index:
-#    chunk_size: 800
-#    chunk_overlap: 100
-#    limit: 15
-#  generation:
-#    prompt_instruction: >
-#      Provide a synthesized, referenced summary based on the most relevant retrieved documents.
-#      Highlight consensus and disagreement between sources.
-#    max_docs_passed_to_llm: 5
-#    generated_response_length: Moderate
-#    display_text_no_results_found:
-#      No relevant research found in the cancer knowledge base for this query.
-#    display_text_connectivity_issue:
-#      Unable to connect to the research database. Please try again later.
-#    idk_message: I'm not certain. Please rephrase your question.
-#    enabled: true
-#  query_rewrite:
-#    enabled: false
-#  confidence_thresholds:
-#    retrieval_confidence_threshold: Moderate
-#    response_confidence_threshold: Moderate
-#  citations:
-#    citation_title: References
-#    citations_shown: 5
-#  hap_filtering:
-#    output:
-#      enabled: false
-#      threshold: 0.5
-

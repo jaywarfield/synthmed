@@ -4,6 +4,14 @@ set -x
 orchestrate env activate synthmed
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+# Import all tools
+for tool in ${SCRIPT_DIR}/tools/*.py; do
+  if [ -f "$tool" ]; then
+    echo "Importing tool: $tool"
+    orchestrate tools import -k python -r ${SCRIPT_DIR}/tools/requirements.txt -f "$tool"
+  fi
+done
+
 # Import all knowledge bases
 for kb in ${SCRIPT_DIR}/knowledge_bases/*.yaml; do
   if [ -f "$kb" ]; then

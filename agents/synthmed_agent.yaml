@@ -56,7 +56,8 @@ instructions: |-
   3. Section named Disease Domain containing a domain table with following column headings:
      | Disease Domain | Key Findings | References | Level of Evidence |
      |----------------|--------------|------------|-------------------|
-  4. End with a unified list of references with each reference starting on a separate line.
+  4. Section named References with each reference starting on a separate line.
+  5. Add footnote "Note: This summary is for research synthesis purposes only, not for clinical decision-making."
 
 guidelines:
   - display_name: Unclear query

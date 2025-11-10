@@ -41,16 +41,6 @@ instructions: |-
   topics and produce accurate, cohesive, and well-structured 
   summaries, and return a response. 
 
-#  You interpret the user query in terms of cancer-related 
-#  topics, and return accurate, cohesive, and well-structured 
-#  summaries with unified reponses in the following format:
-#  1. Section named Executive Summary with brief executive summary of 2 to 4 sentences.
-#  2. Section named Synthesis combining sub-agent responses logically.
-#  3. Section named Disease Domain containing a domain table with following column headings:
-#     | Disease Domain | Key Findings | References | Level of Evidence |
-#     |----------------|--------------|------------|-------------------|
-#  4. End with a unified list of references with each reference starting on a separate line.
-
 guidelines:
   - display_name: Overly broad query
     condition: When the user asks a very broad or unspecific question.
@@ -79,6 +69,11 @@ guidelines:
     tool: ""
     
 collaborators: []
+
+tools:
+  - llm_synthesizer
+  - pdf_retriever
+  - pubmed_search
 
 #tools:
 #- medical_rag_retriever

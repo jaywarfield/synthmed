@@ -43,16 +43,6 @@ instructions: |-
   topics and produce accurate, cohesive, and well-structured 
   summaries, and return a response. 
 
-#  You interpret the user query in terms of autism-related
-#  topics, and return accurate, cohesive, and well-structured 
-#  summaries with unified reponses in the following format:
-#  1. Section named Executive Summary with brief executive summary of 2 to 4 sentences.
-#  2. Section named Synthesis combining sub-agent responses logically.
-#  3. Section named Disease Domain containing a domain table with following column headings:
-#     | Disease Domain | Key Findings | References | Level of Evidence |
-#     |----------------|--------------|------------|-------------------|
-#  4. End with a unified list of references with each reference starting on a separate line.
-
 guidelines:
   - display_name: Broad query
     condition: User asks a broad question without specifying domain (e.g., genetics, behavior).
@@ -69,8 +59,10 @@ guidelines:
       
 collaborators: []
 
-#tools:
-#- example
+tools:
+  - llm_synthesizer
+  - pdf_retriever
+  - pubmed_search
 
 knowledge_base:
   - synthmed_autism_kb

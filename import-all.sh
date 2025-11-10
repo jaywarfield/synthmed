@@ -11,6 +11,8 @@ for tool in ${SCRIPT_DIR}/tools/*.py; do
     orchestrate tools import -k python -r ${SCRIPT_DIR}/tools/requirements.txt -f "$tool"
   fi
 done
+echo "Removing temporary cache: tools/__pycache__"
+rm -rf ${SCRIPT_DIR}/tools/__pycache__
 
 # Import all knowledge bases
 for kb in ${SCRIPT_DIR}/knowledge_bases/*.yaml; do

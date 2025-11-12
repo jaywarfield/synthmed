@@ -14,6 +14,7 @@
 	- python3 -m venv venv
 	- source venv/bin/activate
 3. Setup orchestrate environment:
+        - pip install pymupdf
 	- pip install ibm-watsonx-orchestrate
 	- orchestrate env add -n synthmed -u https://api.ca-tor.watson-orchestrate.cloud.ibm.com/instances/d5d11d07-ece4-4eb3-aaf8-6f91dc58181f --type ibm_iam --activate
 	- orchestrate env activate synthmed

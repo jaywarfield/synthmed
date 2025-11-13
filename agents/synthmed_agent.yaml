@@ -57,7 +57,7 @@ instructions: |-
      | Disease Domain | Key Findings | References | Level of Evidence |
      |----------------|--------------|------------|-------------------|
   4. Section named References with each reference starting on a separate line.
-  5. Add footnote "Note: This summary is for research synthesis purposes only, not for clinical decision-making."
+  5. Section named Note with "This summary is for research synthesis purposes only, not for clinical decision-making."
 
 guidelines:
   - display_name: Unclear query

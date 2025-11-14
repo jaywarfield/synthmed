@@ -1,0 +1,39 @@
+<html>
+<head></head>
+<body>
+    <title>SynthMed Research Synthesis Assistant</title>
+
+<script>
+
+  window.wxOConfiguration = {
+    orchestrationID: "6d75eaea7c6642a887c25c7d57056a09_d5d11d07-ece4-4eb3-aaf8-6f91dc58181f",
+    hostURL: "https://ca-tor.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:ca-tor:a/6d75eaea7c6642a887c25c7d57056a09:d5d11d07-ece4-4eb3-aaf8-6f91dc58181f::",
+    chatOptions: {
+      agentId: "152bb96e-8de9-48dd-92bb-3289f762ee9b",
+      agentEnvironmentId: "626ba4e5-c635-4d60-8177-d42787900742",
+    },
+
+    layout: {
+      form: "float",
+      width: '800px',
+      height: '600px',
+      showOrchestrateHeader: true, 
+      showLauncher: false,
+    }
+  };
+
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+      wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);
+
+</script>
+</body>
+</html>

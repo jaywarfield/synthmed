@@ -70,16 +70,10 @@ guidelines:
     
 collaborators: []
 
-tools:
-  - llm_synthesizer
-  - pdf_retriever
-  - pubmed_search
-
-#tools:
-#- medical_rag_retriever
-#- paper_abstract_parser
-#- citation_formatter
-#- knowledge_graph_linker
+tools: []
+  #- llm_synthesizer
+  #- pdf_retriever
+  #- pubmed_search
 
 knowledge_base:
   - synthmed_cancer_kb

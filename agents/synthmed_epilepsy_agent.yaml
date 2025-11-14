@@ -44,10 +44,10 @@ instructions: |-
 
 collaborators: [] 
 
-tools:
-  - llm_synthesizer
-  - pdf_retriever
-  - pubmed_search
+tools: []
+  #- llm_synthesizer
+  #- pdf_retriever
+  #- pubmed_search
 
 knowledge_base:
   - synthmed_epilepsy_kb

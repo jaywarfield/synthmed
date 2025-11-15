@@ -88,11 +88,6 @@ collaborators:
   - synthmed_epilepsy_agent
   - synthmed_rare_agent
 
-#tools:
-  #- orchestrate_multi_agent
-  #- topic_classifier
-  #- synthesis_merger
-  #- citation_formatter
-  #- medical_rag_retriever
+tools: []
 
 knowledge_base: []

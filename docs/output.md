@@ -2,7 +2,7 @@
 
 ### Output Examples
 
-![SynthMed Output](images/synthmed_output.pdf)
+[SynthMed Output](images/synthmed_output.pdf)
 
 ---
 

@@ -1,16 +1,8 @@
 # **SynthMed Agent - IBM AI Lab Challenge: AI Medical Research Synthesis Agent**
 
-## [Problem](docs/problem.md)
+### Output Examples
 
-## [Solution](docs/solution.md)
-
-## [Solution](docs/technology.md)
-
-## [Solution](docs/output.md)
-
-## [Diagram](docs/diagram.md)
-
-## [Setup](docs/setup.md)
+![SynthMed Output](images/synthmed_output.pdf)
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## [Problem and Solution](docs/problem_and_solution.md)
 
-## [Video and Output](docs/video_and_summary.md)
+## [Video and Summary](docs/video_and_summary.md)
 
 ## [Technology Used](docs/technology_used.md)
 

@@ -3,9 +3,9 @@
 ### Video Replay
 [SynthMed Video](https://www.youtube.com/watch?v=yi_ImScs8so)
 
-### Video Summary
+### Video Output
 
-[SynthMed Summary](images/synthmed_video_summary.pdf)
+[SynthMed Output](images/synthmed_video_summary.pdf)
 
 ---
 

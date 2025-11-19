@@ -63,10 +63,8 @@ to validate the evidence instantly.
 ![Solution Diagram](images/synthmed.drawio.png)
 
 Notes:
-
-[Source](source/synthmed.py)
-
-[Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
+- [Diagram Source](source/synthmed.py)
+- [Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
 
 ---
 

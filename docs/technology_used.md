@@ -1,8 +1,6 @@
 # **SynthMed Agent - IBM AI Lab Challenge: AI Medical Research Synthesis Agent**
 
-## Technology
-
-Description
+### Technology Used
 
 The IBM AI Experiental Learning Lab with courses, coaches, and mentors has been a great live learning experience with the IBM AI platform and IBM Design Thinking.
 

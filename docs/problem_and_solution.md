@@ -1,6 +1,6 @@
 # **SynthMed Agent - IBM AI Lab Challenge: AI Medical Research Synthesis Agent**
 
-## Problem Description ##
+### Problem Description
 
 Medical researchers face a growing challenge: the volume of new clinical studies, 
 systematic reviews, and scientific publications is increasing faster than teams 
@@ -15,7 +15,7 @@ research into real-world healthcare improvements.
 
 To overcome this, we developed SynthMed, a powerful Agentic AI medical research assistant.
 
-## Solution Description ##
+### Solution Description
 
 IBM watsonx enables this solution by utilizing a sophisticated pipeline that ingests,
 analyzes, and synthesizes insights from massive volumes of medical literature.

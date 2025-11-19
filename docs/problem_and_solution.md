@@ -62,8 +62,7 @@ to validate the evidence instantly.
 
 ![Solution Diagram](images/synthmed.drawio.png)
 
-Reference: [IBM Diagram Standard](https://www.ibm.com/design/language/infogr
-aphics/technical-diagrams/design/)
+Reference: [IBM Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
 
 ---
 

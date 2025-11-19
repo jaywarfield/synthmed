@@ -5,7 +5,7 @@
 
 ### Video Output
 
-[SynthMed Output](images/synthmed_video_summary.pdf)
+[SynthMed Output](images/synthmed_video_output.pdf)
 
 ---
 

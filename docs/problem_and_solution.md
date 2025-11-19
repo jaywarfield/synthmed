@@ -58,6 +58,13 @@ parses and routes the task to the correct subagent, and the system instantly
 returns a structured summary with the source link, allowing the researcher 
 to validate the evidence instantly.
 
+### Solution Diagram
+
+![Solution Diagram](images/synthmed.drawio.png)
+
+Reference: [IBM Diagram Standard](https://www.ibm.com/design/language/infogr
+aphics/technical-diagrams/design/)
+
 ---
 
 # License

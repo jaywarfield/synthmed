@@ -2,11 +2,9 @@
 
 ## [Problem and Solution](docs/problem_and_solution.md)
 
-## [Technology Used](docs/technology_used.md)
-
 ## [Video and Output](docs/video_and_summary.md)
 
-## [Solution Diagram](docs/diagram.md)
+## [Technology Used](docs/technology_used.md)
 
 ## [Environment Setup](docs/setup.md)
 

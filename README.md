@@ -4,7 +4,7 @@
 
 ## [Technology Used](docs/technology_used.md)
 
-## [Video and Output](docs/video_and_output.md)
+## [Video and Output](docs/video_and_summary.md)
 
 ## [Solution Diagram](docs/diagram.md)
 

@@ -41,7 +41,7 @@ for Autism, Cancer, Dementia, Epilepsy, and Rare Diseases. Medical papers are up
 into the Vector Database knowledge base specific to each subagent, ensuring that queries 
 are answered using the most relevant and focused literature set. 
 
-Extensive engineering of the Main Agent's highly structured instructions was crucial to i
+Extensive engineering of the Main Agent's highly structured instructions was crucial to
 prevent inconsistencies, such as unnecessary clarification questions or clustered, 
 hard-to-trace references. By streamlining these instructions, we guaranteed a consistent, 
 verifiable output format adhering to a strict template—including an "Executive Summary," 

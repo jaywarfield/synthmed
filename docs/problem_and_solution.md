@@ -65,6 +65,9 @@ to validate the evidence instantly.
 Notes:
 - [Diagram Source](source/synthmed.py)
 - [Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
+- [Work Sheet(source/synthmed_worksheet.xlsx)
+#- [Work Spreadsheets(images/synthmed_workitems.png)
+
 
 ---
 

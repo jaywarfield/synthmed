@@ -63,7 +63,8 @@ to validate the evidence instantly.
 ![Solution Diagram](images/synthmed.drawio.png)
 
 References:
-- [Solution Worksheet](images/synthmed_worksheet.png)
+- [Enterprise Design Thinking](images/synthmed_edt.pdf)
+- [Team Worksheet](images/synthmed_worksheet.png)
 - [Diagram Source](source/synthmed.py)
 - [Diagram Standard](https://www.ibm.com/design/language/infographics/technical-diagrams/design/)
 

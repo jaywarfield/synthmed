@@ -6,8 +6,6 @@
 
 ## [Feedback and Evaluation](docs/feedback_and_evaluation.md)
 
-## [Environment Setup](docs/setup.md)
-
 ---
 
 # License

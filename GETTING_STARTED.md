@@ -1,30 +1,59 @@
-# Getting Started
-Your project repository should contain a GETTING_STARTED.md that outlines how an IBM team can complete thee required setup and install in order to adopt your product/service/asset and any information and resources to get the support they need from your team.
+# **SynthMed Agent - IBM AI Lab Challenge: AI Medical Research Synthesis Agent**
 
-## How to Improve Your Product with this Project
-What problem would an IBM team be looking to solve with your project? What makes your project a better solution? How would their team/product benefit from adopting your project?
+### Setup Orchestrate
 
-## Requirements
-list all project requirements, versions, link to downloads/resources
+1. Obtain API Key (refer to lab guide):
+        - Go to watsonx.ai home page (https://dataplatform.cloud.ibm.com/wx/home?context=wx).
+        - Scroll down to "Developer access" section.
+	- Select "Project or deployment space" and select the sandbox.
+        - Leave "Project ID" and watsonx.ai URL as is (ensure region is Dallas at top right of watsonx).ai home page.
+        - Select "Create API key" button, enter name and optional description, choose "Disable leaked key" option, and click the Create button.
+        - Copy and save the API key or download to save the key in a file.
+2. Setup virtual environment:
+	- python3 -m venv venv
+	- source venv/bin/activate
+3. Setup orchestrate environment:
+	- pip install pymupdf
+	- pip install ibm-watsonx-orchestrate
+	- orchestrate env add -n synthmed -u https://api.ca-tor.watson-orchestrate.cloud.ibm.com/instances/d5d11d07-ece4-4eb3-aaf8-6f91dc58181f --type ibm_iam --activate
+	- orchestrate env activate synthmed
+	- Please enter WXO API key:  (cut-and-paste your API Key here) 
+	- Note: Token will need to be reactivated when it expires.
 
-- [ ] download/install dev env requirements/dependencies w links
-- [ ] IBM global slack channel for project comms and support
-- [ ] minimum one project starter to manage all project code, comms and community support
-- [ ] zenhub board in repo to manage onboarding and issues
-- [ ] github pages with project requirements, setup, documentation, etc.
-- [ ] CODE_OF_CONDUCT.md, README.md, GETTING_STARTED.md, CONTRIBUTING.md, and innersource.yaml files in /root of repo
+### Setup SynthMed
+4. Clone and run SynthMed project locally:
+	- Browse to https://github.com/jaywarfield/synthmed
+	- Select Code and Open with GitHub Desktop.
+	- Execute locally: import-all.sh
+	- Test in UI
 
-Note: link to github pages documentation
+Note: The following are additional orchestrate commands if needed.
 
-## Project Set-Up
+### View orchestrate help:
+- orchestrate –help
+- orchestrate env --help
+- orchestrate agents –help
+- orchestrate agents remove --help
+- etc
 
-Note: link to github pages documentation
-- [ ] change "master" branch to "main"
+### Remove agent:
+ orchestrate agents remove --name my-agent --kind native
 
-Recommended IDE: https://w3.ibm.com/#/tools/essential
+### List agents:
+- orchestrate agents list -v
 
-## Quickstart Guide
+### Import tools:
+- orchestrate tools import -f my-file.py -k python
 
-Note: link to github pages documentation
+### Import knowledge bases:
+- orchestrate knowledge-bases import -f my-kb.yaml
 
-## GitHub Pages Documentation
+### Import agents:
+- orchestrate agents import -f my-agent.yaml
+
+---
+
+# License
+
+This application is licensed under the Apache License, Version 2.  Separate third-party code objects invoked by this application are licensed by their respective providers pursuant to their own separate licenses.  Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+

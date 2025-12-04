@@ -4,7 +4,7 @@
 
 ## [Video and Output](docs/video_and_output.md)
 
-## [Technology Used](docs/technology_used.md)
+## [Feedback and Evalation](docs/feedback_and_evaluation.md)
 
 ## [Environment Setup](docs/setup.md)
 

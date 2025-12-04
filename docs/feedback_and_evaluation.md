@@ -19,7 +19,7 @@ which differentiates it from off-the-shelf summarizers and points to original ap
 
 - This agentic, knowledge-first approach is an innovative contribution to healthcare AI tooling.
 
-- The repository includes a web/ folder and notebooks that imply a user-facing output (demo or visualizer) alongside the agent code‚ which is great for usability and rapid evaluator testing. 
+- The repository includes a web folder and notebooks that imply a user-facing output (demo or visualizer) alongside the agent code‚ which is great for usability and rapid evaluator testing. 
 
 - The project also includes GETTING_STARTED.md and contribution guidance that lower onboarding friction for reviewers and pilot partners. 
 
@@ -31,7 +31,7 @@ which differentiates it from off-the-shelf summarizers and points to original ap
 
 - The solution addresses a high-priority problem‚ making medical evidence and research more accessible and actionable.
 
-- The notebooks and knowledge base structure demonstrate the team‚Äôs ability to iterate on evaluation, refine prompts/workflows, and produce repeatable outputs that can be measured (accuracy, relevance, time saved). 
+- The notebooks and knowledge base structure demonstrate the team's ability to iterate on evaluation, refine prompts/workflows, and produce repeatable outputs that can be measured (accuracy, relevance, time saved). 
 
 - The modular architecture (agents + knowledge_bases + tools + web UI) supports efficient iteration, measurable KPIs (synthesis speed, precision/recall, clinician satisfaction), and scaling to more domains or users. 
 
